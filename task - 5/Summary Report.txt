@@ -1,0 +1,108 @@
+🧠 Exploratory Data Analysis (EDA) on Titanic Dataset
+
+🎯 Objective
+
+To extract insights from the Titanic dataset using visual and statistical exploration.
+
+🧰 Tools Used
+
+Python Libraries: Pandas, Matplotlib, Seaborn
+
+Environment: Jupyter Notebook
+
+Files Used:
+
+train.csv
+
+test.csv
+
+gender_submission.csv
+
+📊 Dataset Overview
+Feature	Description
+PassengerId	Unique ID for each passenger
+Survived	0 = No, 1 = Yes
+Pclass	Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)
+Name	Passenger name
+Sex	Gender
+Age	Age in years
+SibSp	Number of siblings/spouses aboard
+Parch	Number of parents/children aboard
+Ticket	Ticket number
+Fare	Passenger fare
+Cabin	Cabin number
+Embarked	Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
+⚙️ Data Summary
+
+Total records: 891
+
+Missing values:
+
+Age → 177 missing
+
+Cabin → 687 missing
+
+Embarked → 2 missing
+
+Mean Age: 29.7 years
+
+Mean Fare: 32.2
+
+Survival Rate: ~38% survived
+
+📈 Visualizations (Insert these images)
+1. Age Distribution
+
+🖼️ (Insert: age_distribution.png)
+Most passengers are aged between 20–40 years, showing a young adult population.
+
+2. Fare Distribution by Passenger Class
+
+🖼️ (Insert: fare_boxplot.png)
+Higher class passengers (1st class) paid significantly more fares and had higher survival chances.
+
+3. Survival Count by Gender
+
+🖼️ (Insert: survival_by_gender.png)
+Females show a much higher survival rate than males — “Women and children first” effect is visible.
+
+4. Correlation Heatmap
+
+🖼️ (Insert: correlation_heatmap.png)
+Survived is correlated with Sex, Pclass, and Fare, meaning these factors heavily influenced survival.
+
+🧩 Key Observations
+
+Most passengers are in their 20s and 30s.
+
+Females survived at a much higher rate (~74%) than males (~19%).
+
+1st class passengers were most likely to survive, while 3rd class had the lowest chance.
+
+Children (under 10) also had higher survival rates.
+
+Fare and class are strong indicators of survival.
+
+Cabin data has many missing values and needs imputation or removal.
+
+🧾 Summary of Findings
+
+Overall Survival Rate: ~38%
+
+Gender Impact: Females much more likely to survive
+
+Class Impact: 1st class had best survival rate
+
+Age Impact: Children more likely to survive
+
+Fare Relationship: Higher fare = higher survival
+
+Missing Data: Age and Cabin columns incomplete
+
+Strong Predictors of Survival: Sex, Pclass, Fare
+
+📘 Conclusion
+
+The Titanic dataset shows clear social and economic patterns of survival:
+Women, children, and wealthy passengers had higher chances of survival.
+These findings are consistent with historical records and serve as a strong dataset for data preprocessing, feature engineering, and machine learning model building.
