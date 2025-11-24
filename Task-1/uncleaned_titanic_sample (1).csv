@@ -1,0 +1,6 @@
+PassengerId,Age,Fare,Sex,Embarked,Cabin
+1,22.0,7.25,male,S,
+2,,71.83,female,C,C85
+3,24.0,8.05,female,,
+4,,,male,S,
+5,30.0,13.0,female,Q,E46
